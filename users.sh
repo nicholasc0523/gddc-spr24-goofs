@@ -40,4 +40,4 @@ cat /home/scoring/.ssh/id_rsa.pub > /home/scoring/.ssh/authorized_keys
 chmod 600 /home/scoring/.ssh/authorized_keys
 chown -R scoring:scoring /home/scoring/.ssh
 
-echo "Created the scoring-engine user."
+echo "Created the scoring-engine user and initilaized SSH key."
